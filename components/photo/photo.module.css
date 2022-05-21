@@ -1,0 +1,9 @@
+.photo{
+    width:60px;
+    flex-shrink: 0; /*küçülmez*/
+}
+.img{
+    display:block;
+    max-width:100%;
+    border-radius: 999px;
+}

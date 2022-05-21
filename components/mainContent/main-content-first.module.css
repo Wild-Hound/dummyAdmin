@@ -1,0 +1,52 @@
+.mainBox {
+  display: flex;
+  flex-direction: column;
+  padding:80px;
+  .mainContentHeadBox {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    h6 {
+      font-size: 32px;
+      color: var(--c-secondary);
+      @media (--t){
+        font-size:20px;
+      }
+    }
+    .exportButton {
+      border-radius: 8px;
+      padding: 10px;
+      color: var(--c-navigation-link-color);
+      border: 1px solid currentColor;
+      background-color: var(--c-primary);
+      border-radius: 6px;
+      @media (--t){
+        padding:6px;
+        font-size:14px;
+      }
+      &:hover {
+        background-color: var(--c-button-background);
+        color: var(--c-primary);
+        svg {
+          color: var(--c-primary);
+        }
+      }
+    }
+    span {
+      color: var(--c-navigation-link-color);
+      margin-left: 10px;
+    }
+  }
+}
+
+.bigProfileBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+  @media (-t) {
+    justify-content: center;
+  }
+}

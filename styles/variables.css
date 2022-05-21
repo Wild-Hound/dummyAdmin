@@ -1,0 +1,68 @@
+/*LIGHT*/
+
+:root {
+  --c-navigation-link-color: #007aff;
+  --c-theme: #f4f8f9; /*grayish*/
+  --c-primary: #fff;
+  --c-secondary: #000;
+  --c-hover-button: rgba(65, 146, 236, 0.1);
+  --c-selected-button: rgba(65, 146, 236, 0.4);
+  --c-notify-background: #ff7878;
+  --c-border-color: rgb(152, 152, 152, 0.2);
+  --c-col-main-color: #f4f8f9;
+  --c-input-placeholder: rgb(152, 152, 152, 0.5);
+  --c-notification-base-color: #4da1ff;
+  --c-chat-last-seen: #797a7e;
+  --c-button-background: #71b4ff;
+  --c-profile-box: #fff;
+  --c-profile-name: #323c47;
+  --c-profile-mail: rgba(50, 60, 71, 0.5);
+  --c-profile-role: rgba(50, 60, 71, 0.614385);
+  --c-invite-box-color: rgba(77, 161, 255, 0.742018);
+  --c-search-icon: rgb(152, 152, 152, 0.5);
+  --fade: 120ms;
+  --c-name-font-size: 17px;
+  --c-mail-font-size: 11px;
+  --c-role-font-size: 13px;
+  --c-profile-bottom-fontSize: 20px;
+  --c-gray:#6e767d;
+
+  /*
+  --c-main-gray: #f4f8f9;
+  --c-yellow: #ffd012;
+  --c-time-gray: #989898;
+  --c-pending-color: #ff6d4a;
+  */
+}
+
+/*DARK*/
+
+.dark:root {
+  --c-navigation-link-color: #fff;
+  --c-theme: black; /*grayish*/
+  --c-primary: #000;
+  --c-secondary: #fff;
+  --c-hover-button: rgba(65, 146, 236, 0.1);
+  --c-selected-button: rgba(65, 146, 236, 0.4);
+  --c-notify-background: #ff7878;
+  --c-border-color: rgb(152, 152, 152, 0.2);
+  --c-col-main-color: #000;
+  --c-input-placeholder: #fff;
+  --c-notification-base-color: #4da1ff;
+  --c-chat-last-seen: #fff;
+  --c-button-background: #fff;
+  --c-profile-box: #322f3d;
+  --c-profile-name: #fff;
+  --c-profile-mail: #dddddd;
+  --c-profile-role: #eeeeee;
+  --c-invite-box-color: #fff;
+  --c-search-icon: #fff;
+  --c-gray:#fff;
+
+  /*
+  --c-main-gray: #f4f8f9;
+  --c-yellow: #ffd012;
+  --c-time-gray: #989898;
+  --c-pending-color: #ff6d4a;
+  */
+}

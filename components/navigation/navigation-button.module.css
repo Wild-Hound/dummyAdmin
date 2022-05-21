@@ -1,0 +1,32 @@
+.navButton { 
+  /*background-color: var(--c-primary);*/ /*already transparent at main button*/
+  position: relative;
+  transition: var(--fade);
+  svg{
+    font-size:24px;
+    & + *{
+      margin-left:12px;
+      margin-right:6px;
+    }
+  }
+}
+
+.navButtonSelected{
+  background-color: var(--c-selected-button);
+}
+
+.notify{
+  position:absolute;
+  left:32px;
+  top: -10px;
+  background-color: var(--c-notify-background);
+  color:#fff;
+  //min-width:24px;
+  height:28px;
+  font-size:13px;
+  padding-right:8px;
+  padding-left:8px;
+  border-radius:50%;
+  display:flex;
+  align-items: center;
+}

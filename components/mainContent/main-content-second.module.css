@@ -1,0 +1,32 @@
+.chartSectionBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px 80px;
+  .chartInfoBox {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    h6 {
+      font-size: 30px;
+      color: var(--c-secondary);
+    }
+  }
+  .chartTimeBox {
+    display: flex;
+    button {
+      padding: 10px;
+      color: var(--c-navigation-link-color);
+      border: 1px solid currentColor;
+      border-radius: 6px;
+      background-color: var(--c-primary);
+      margin-left:10px;
+      &:hover {
+        background-color: var(--c-button-background);
+        color: var(--c-primary);
+      }
+    }
+  }
+}

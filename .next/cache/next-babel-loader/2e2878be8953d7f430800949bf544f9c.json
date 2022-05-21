@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React from 'react';\nimport styles from './navigation-right-third.module.css';\n\nfunction NavigationRightThird() {\n  return __jsx(\"div\", null, \"CONVERSATION\");\n}\n\nexport default NavigationRightThird;","map":null,"metadata":{},"sourceType":"module"}

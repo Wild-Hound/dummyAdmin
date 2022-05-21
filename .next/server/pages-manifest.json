@@ -1,0 +1,13 @@
+{
+  "/_app": "pages/_app.js",
+  "/api/tweet": "pages/api/tweet.js",
+  "/conversation": "pages/conversation.html",
+  "/files": "pages/files.html",
+  "/": "pages/index.html",
+  "/meeting": "pages/meeting.html",
+  "/session": "pages/session.html",
+  "/settings": "pages/settings.html",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
+}

@@ -1,0 +1,1 @@
+{"ast":null,"code":"import Twit from 'twit';\nconst T = new Twit({\n  consumer_key: process.env.TWITTER_CONSUMER_KEY,\n  consumer_secret: process.env.TWITTER_CONSUMER_SECRET,\n  access_token: process.env.TWITTER_ACCESS_TOKEN,\n  access_token_secret: process.env.TWITTER_ACCESS_TOKEN_SECRET\n});\nexport default T;","map":null,"metadata":{},"sourceType":"module"}

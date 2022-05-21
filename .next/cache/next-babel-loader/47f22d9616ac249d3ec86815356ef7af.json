@@ -1,0 +1,1 @@
+{"ast":null,"code":"const fetcher = url => fetch(url).then(res => res.json());\n\nexport default fetcher;","map":null,"metadata":{},"sourceType":"module"}

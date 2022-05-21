@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React from 'react';\nimport cn from 'classnames';\nimport styles from './col-main.module.css';\n\nfunction Main({\n  children\n}) {\n  return __jsx(\"div\", {\n    className: cn(styles.main)\n  }, children);\n}\n\nexport default Main;","map":null,"metadata":{},"sourceType":"module"}
